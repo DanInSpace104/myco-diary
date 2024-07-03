@@ -1,7 +1,8 @@
 ## Description
-This is a simple tool to write some thoughts on the go from a terminal in your mycorrhiza diary.
+This is a simple tool to write some thoughts on the go from a terminal in your [mycorrhiza](https://github.com/bouncepaw/mycorrhiza) diary.
 
 ## Installation
+0. Build binary: `go build -o diary diary.go`
 1. Place binary executable somewhere on the PATH
 2. Retrieve your auth token from mycorrhiza. It can be found using browser tools - Inspect - Network - Some wiki request - Cookies
 3. Recommended: Add user-wide alias for simpler usage. 
